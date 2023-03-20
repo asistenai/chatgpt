@@ -3,6 +3,7 @@ function onOpen() {
     .addItem("Generate Blog", "myFunction")
     .addToUi();
 }
+
 function myFunction() {
   var apiKey = "YOUR_API_KEY";  
   var doc = DocumentApp.getActiveDocument()
